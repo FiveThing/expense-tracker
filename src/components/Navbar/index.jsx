@@ -28,10 +28,10 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex flex-col h-screen justify-center ">
+    <div className="flex flex-col h-full justify-center ">
       {cta.map((btn) => (
         <span
-          className="text-white m-6 text-3xl hover:text-blue-400    "
+          className="m-6 text-3xl hover:text-blue-400    "
           onClick={() => alert(`${btn.alert}`)}
         >
           {btn.button}

@@ -1,10 +1,14 @@
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import  Navbar from "./components/Navbar"
 function App() {
   return (
-    <div className="App">
-     {/* <Home /> */}
-      <Navbar/>
+    <div className="App flex h-screen">
+      <Navbar />
+      <div className="flex flex-col container mx-auto">
+        <Header />
+        <Home />
+      </div>
     </div>
   );
 }

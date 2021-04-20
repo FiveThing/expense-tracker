@@ -7,12 +7,12 @@ const Header = () => {
     <div className="my-8">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl">Hello,</h1>
-        <RiSearchLine className="text-2xl" />
+        <RiSearchLine className="text-2xl m-4" />
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between ">
         <h1 className="text-5xl">Juan</h1>
-        <RiLayoutGridFill className="text-2xl" />
+        <RiLayoutGridFill className="text-2xl m-4" />
       </div>
     </div>
   );
